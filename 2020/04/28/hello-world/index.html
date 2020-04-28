@@ -302,7 +302,25 @@
 
 
   
-    <div class="duoshuo"></div>
+  
+    <!-- gitment评论框 start -->
+        <div id="gitment" class="ds-thread"></div>
+        <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+        <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+        <script>
+            var gitment = new Gitment({
+                id: 'lTue Apr 28 2020 22:05:31 GMT+0800',
+                owner: 'twobfriends',
+                repo: 'twobfriends.github.io',
+                oauth: {
+                    client_id: 'd4ccbee866f27e3455e6',
+                    client_secret: '',
+                },
+            })
+            gitment.render('gitment')
+        </script>
+
+
   
 
 
